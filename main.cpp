@@ -21,6 +21,10 @@
 #define LIB_SUFFIX ".lib"
 #endif // DEBUG
 
+#define CV_CAP_PROP_FPS 5
+#define CV_FILLED -1 
+
+
 #ifndef CV_VERSION_EPOCH
 #include "opencv2/videoio/videoio.hpp"
 #define OPENCV_VERSION CVAUX_STR(CV_VERSION_MAJOR)"" CVAUX_STR(CV_VERSION_MINOR)"" CVAUX_STR(CV_VERSION_REVISION)
